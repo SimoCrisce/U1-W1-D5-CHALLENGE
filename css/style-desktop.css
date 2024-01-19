@@ -1,0 +1,143 @@
+/* Your styles here */
+body {
+  color: #393d41;
+  font-size: 1.2rem;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.65;
+  text-align: center;
+}
+
+header {
+  background-color: black;
+}
+
+header > img {
+  display: block;
+  width: 10%;
+  margin-inline: right;
+  padding: 25px;
+}
+
+h1,
+h3,
+h5,
+h6 {
+  color: #25a2c3;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1.8em;
+  line-height: 1;
+  padding: 30px 20px 20px;
+  color: #25a2c3;
+}
+
+h3 {
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+h4 {
+  border-top: 1px solid white;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.ceo {
+  padding-bottom: 20px;
+}
+
+.testimonianza > h2 {
+  color: white;
+}
+
+.container-paragraph {
+  margin: auto;
+  padding-block: 100px;
+}
+
+.paragraph {
+  padding: 10px;
+}
+
+.container-icon {
+  width: 25%;
+  display: inline-block;
+  margin-block: auto;
+  vertical-align: middle;
+}
+
+.container-img {
+  object-fit: contain;
+  width: 100%;
+}
+
+.background-img {
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  padding-block: 200px;
+}
+
+.container-icon > img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.testimonianza {
+  background-color: #e22d0e;
+  color: white;
+  padding: 20px;
+}
+
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  background-color: #e22d0e;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.container-tips {
+  display: inline-block;
+  width: 40%;
+  vertical-align: middle;
+  text-align: left;
+  padding: 20px;
+}
+
+.container-imgs {
+  border: 1px solid #dee1e3;
+  margin: 30px 20px;
+  display: inline-block;
+  width: 30%;
+}
+
+.container-imgs > div {
+  padding: 10px;
+}
+
+.block-img {
+  width: 100%;
+}
+
+footer {
+  background-color: #25a2c3;
+  color: white;
+}
+
+footer > div {
+  padding: 25px 10px;
+}
+
+footer > div > h2 {
+  color: white;
+}
+
+a {
+  color: white;
+}
