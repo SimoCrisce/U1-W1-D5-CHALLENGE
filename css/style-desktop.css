@@ -60,7 +60,7 @@ h4 {
 }
 
 .paragraph {
-  padding: 10px;
+  padding-block: 10px;
 }
 
 .container-icon {
